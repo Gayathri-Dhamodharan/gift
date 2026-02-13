@@ -17,7 +17,9 @@ const Suprise = () => {
       </div>
 
       <p className="  text-xl mt-4 p-4 flex flex-col justify-center items-center text-center">
-<span className='text-zinc-500'>I may not be great with words, but every bit of this little surprise comes straight from my heart. I hope it brings the sweetest smile to your face, just like you bring to mine every single day.
+<span className='text-zinc-500'>I’m not very good at editing or putting my feelings into perfect words… but I truly tried my best, because you deserve nothing less. 🤍
+<br/>
+I may not be great with words, but every bit of this little surprise comes straight from my heart. I hope it brings the sweetest smile to your face, just like you bring to mine every single day.
 </span><br/>
 <br/>
 <span>Happy Valentine’s Day, my dearest. 💖</span>      </p>
