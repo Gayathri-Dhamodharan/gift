@@ -40,11 +40,11 @@ function CoupleQuiz() {
   question: "Where did we go for our first romantic trip? 💕🏔️",
   options: [
     "Ooty 🌄",
-    "Yercaud Hill Station 🌲",
+    "Yercaud 🌲",
     "Kodaikanal 🌊",
     "Goa 🏖️"
   ],
-  answer: "Yercaud Hill Station 🌲",
+  answer: "Yercaud 🌲",
 },
   {
     question: "On which date did you propose me? 💌",
@@ -99,7 +99,7 @@ function CoupleQuiz() {
     "We 💞",
     "Love has no competition 🥰",
   ],
-  answer: "We 💞",
+  answer: "Love has no competition 🥰",
 },
 
 ];
@@ -215,7 +215,7 @@ function CoupleQuiz() {
           <p className="text-xl text-pink-700 font-semibold mb-6">
             {getResultMessage()}
           </p>
-<div className="flex flex-col justify-between gap-4">
+<div className="flex flex-col justify-between gap-4 mx-10 md:mx-50">
     <button
             onClick={restartQuiz}
             className="bg-red-500 text-white px-6 py-2 rounded-full hover:bg-red-600 transition"

@@ -27,7 +27,9 @@ const Navbar = () => {
           <Link to="/letter" className="hover:text-red-600 transition">
             Letter
           </Link>
-        
+          <Link to="/surprise" className="hover:text-red-600 transition">
+            Surprise
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -54,7 +56,9 @@ const Navbar = () => {
           <Link to="/letter" onClick={() => setIsOpen(false)} className="block">
             Letter
           </Link>
-          
+          <Link to="/surprise" onClick={() => setIsOpen(false)} className="block">
+            Surprise
+          </Link>
         </div>
       )}
     </nav>

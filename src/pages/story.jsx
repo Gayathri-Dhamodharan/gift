@@ -58,6 +58,8 @@ const Story = () => {
         Our Beautiful Journey Together 💖
       </h1>
 
+      <p className="text-zinc-500 mb-5">They may not be real pictures, but the feelings behind them are completely real. Every little detail was imagined with love, just to make you smile. 💕</p>
+
       {/* Timeline */}
       <div className="flex-1 overflow-y-auto scrollbar-hide space-y-16 px-4">
         {memories.map((item, index) => (
