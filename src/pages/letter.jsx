@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Letter = () => {
+  const navigate = useNavigate();
   const [open, setOpen] = useState(false);
 
   return (
@@ -153,7 +155,8 @@ My heart belongs to you — today, tomorrow, and always 💞✨
 </p>
 
 
-<button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full mt-4" onClick={() => window.location.href = '/'}>
+<button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full mt-4"   onClick={() => navigate("/")}
+>
         Home
       </button>
           </div>

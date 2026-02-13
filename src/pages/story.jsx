@@ -5,8 +5,10 @@ import wedding from '../assets/images/wedding.jpeg'
 import fight from '../assets/images/fight.jpeg'
 import kiss from '../assets/images/kiss.jpeg'
 import longDistance from '../assets/images/longDistance.jpeg'
+import { useNavigate } from 'react-router-dom'
 
 const Story = () => {
+  const navigate = useNavigate();
  
 
     const memories = [
@@ -85,7 +87,8 @@ const Story = () => {
         
       </div>
 
-      <button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full mt-4 flex justify-center items-center " onClick={() => window.location.href = '/quiz'}>
+      <button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full mt-4 flex justify-center items-center "   onClick={() => navigate("/quiz")}
+>
         Quiz
       </button>
 
