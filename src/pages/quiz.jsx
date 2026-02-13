@@ -27,10 +27,15 @@ function CoupleQuiz() {
     answer: "Biriyani 🍗",
   },
   {
-    question: "What is my favorite color? 🎨",
-    options: ["Blue 💙", "Red ❤️", "Yellow 💛", "Pink 💕"],
-    answer: "Yellow 💛",
-  },
+  question: "What was the first movie we watched together? 🎬🍿",
+  options: [
+    "Thadam 🎥",
+    "96 ❤️",
+    "Master 🔥",
+    "Bigil ⚽"
+  ],
+  answer: "Thadam 🎥",
+},
 {
   question: "Where did we go for our first romantic trip? 💕🏔️",
   options: [
