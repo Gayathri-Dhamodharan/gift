@@ -215,7 +215,7 @@ function CoupleQuiz() {
           <p className="text-xl text-pink-700 font-semibold mb-6">
             {getResultMessage()}
           </p>
-<div className="flex justify-between ">
+<div className="flex flex-col justify-between gap-4">
     <button
             onClick={restartQuiz}
             className="bg-red-500 text-white px-6 py-2 rounded-full hover:bg-red-600 transition"

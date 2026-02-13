@@ -154,11 +154,6 @@ My heart belongs to you — today, tomorrow, and always 💞✨
  <b>Your Chlm 💖</b> 
 </p>
 
-
-<button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full mt-4"   onClick={() => navigate("/")}
->
-        Home
-      </button>
           </div>
           
         )}
