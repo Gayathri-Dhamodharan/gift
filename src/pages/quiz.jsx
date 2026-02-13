@@ -31,11 +31,16 @@ function CoupleQuiz() {
     options: ["Blue 💙", "Red ❤️", "Yellow 💛", "Pink 💕"],
     answer: "Yellow 💛",
   },
-  {
-    question: "My favorite place is? 🏡",
-    options: ["Beach 🌊", "Temple 🛕", "Home 🏠", "Mall 🛍️"],
-    answer: "Home 🏠",
-  },
+{
+  question: "Where did we go for our first romantic trip? 💕🏔️",
+  options: [
+    "Ooty 🌄",
+    "Yercaud Hill Station 🌲",
+    "Kodaikanal 🌊",
+    "Goa 🏖️"
+  ],
+  answer: "Yercaud Hill Station 🌲",
+},
   {
     question: "On which date did you propose me? 💌",
     options: ["18-10-2017 📅", "07-09-2023 📅", "20-10-2019 📅", "14-02-2018 📅"],
