@@ -12,8 +12,7 @@ const Home = () => {
 
       {/* Sub Text */}
       <p className="text-lg md:text-2xl text-gray-700 max-w-2xl mb-8">
-       In a world full of moments, you are my forever.
-      </p>
+From school days to forever vows, every step with you has been my favorite journey. I’m so lucky to call you mine. 💍✨      </p>
 
       {/* Romantic Line */}
       <p className="text-md md:text-lg text-gray-600 italic mb-10">
